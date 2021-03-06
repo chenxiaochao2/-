@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+#main {
+    width: 535px;
+    height: 535px;
+    background: url(../images/board.png);
+    margin: 50px auto;
+    position: relative;
+}
+
+#back {
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    background: antiquewhite;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: center;
+    top: 100px;
+    right: -120px;
+    cursor: pointer;
+}
+#reBack {
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    background: antiquewhite;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: center;
+    top: 160px;
+    right: -120px;
+    cursor: pointer;
+}
+
+#main .pan {
+    box-sizing: border-box;
+    width: 490px;
+    height: 490px;
+    position: absolute;
+    left: 22px;
+    top: 22px;
+}
+
+#main .pan li {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+#restart {
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    background: antiquewhite;
+    border-radius: 4px;
+    line-height: 26px;
+    text-align: center;
+    top: 220px;
+    right: -120px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
